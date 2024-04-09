@@ -1,0 +1,32 @@
+{
+  "fullStack": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Tailwind",
+    "Node Js",
+    "Express",
+    "MongoDb"
+  ],
+  "frontend": ["HTML", "CSS", "Javascript", "React", "Tailwind"],
+  "backend": ["Javascript", "React", "Node Js", "Express", "MongoDb"],
+  "projects": [
+    "Login Template",
+    "Registration Template",
+    "Landing Page",
+    "Responsive Website",
+    "Ecommerce Website",
+    "Live Project",
+    "Pallax Website"
+  ],
+  "miniProjects": [
+    "Calculator",
+    "Tic-Tac-Toe",
+    "Snake Ladder",
+    "Rock-Papper-Scissor",
+    "Todo List",
+    "KBC",
+    "Ticket Booking"
+  ]
+}

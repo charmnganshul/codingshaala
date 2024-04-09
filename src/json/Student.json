@@ -1,0 +1,220 @@
+[
+    {
+        "name" : "Divyansh Jain",
+        "age" : 20,
+        "userName" : "Divyansh",
+        "password" : "Divyansh1",
+        "courseName" : "Full Stack Web Development",
+        "courseDetail" : "fullStack",
+        "syllabusCompleted": [
+            {
+                "html" : [
+                    "HTML - Overview",
+                    "HTML - Basic Tags",
+                    "HTML - Elements",
+                    "HTML - Attributes",
+                    "HTML - Formatting",
+                    "HTML - Images, Video, Audio"
+                ]
+            },
+            {
+                "css" : [
+                    "CSS - Overview",
+                    "CSS - Syntax",
+                    "CSS - Inclusion",
+                    "CSS - Box Model",
+                    "CSS - Color, Background, Text",
+                    "CSS - Transform, Animation",
+                    "CSS - Filters, Images",
+                    "CSS - Display",
+                    "CSS - Positions",
+                    "CSS - Pseudo Elements"
+        
+                ]
+            },
+            {
+                "javascript" : [
+                    "Introduction",
+                    "Variables",
+                    "Interactions",
+                    "Operators",
+                    "Data-Types",
+                    "Functions",
+                    "Objects",
+                    "Date & Time",
+                    "JSON"
+                ]
+            },
+            {
+                "react" : []
+            },
+            {
+                "tailwind" : [
+                    "Introduction to CSS Frameworks",
+                    "Tailwind SetUp",
+                    "Tailwind Properties"
+                ]
+            }
+        ],
+        "projects" : [
+            "Login Template",
+            "Registration Template",
+            "Landing Page",
+            "Responsive Website",
+            "Ecommerce Website"
+        ],
+        "test" : [
+            86,
+            70
+        ]
+
+    },
+    {
+        "name" : "Divyansh Jain",
+        "age" : 20,
+        "userName" : "Divyansh",
+        "password" : "Divyansh1",
+        "courseName" : "Full Stack Web Development",
+        "courseDetail" : "fullStack",
+        "syllabusCompleted": [
+            {
+                "html" : [
+                    "HTML - Overview",
+                    "HTML - Basic Tags",
+                    "HTML - Elements",
+                    "HTML - Attributes",
+                    "HTML - Formatting",
+                    "HTML - Images, Video, Audio"
+                ]
+            },
+            {
+                "css" : [
+                    "CSS - Overview",
+                    "CSS - Syntax",
+                    "CSS - Inclusion",
+                    "CSS - Box Model",
+                    "CSS - Color, Background, Text",
+                    "CSS - Transform, Animation",
+                    "CSS - Filters, Images",
+                    "CSS - Display",
+                    "CSS - Positions",
+                    "CSS - Pseudo Elements"
+        
+                ]
+            },
+            {
+                "javascript" : [
+                    "Introduction",
+                    "Variables",
+                    "Interactions",
+                    "Operators",
+                    "Data-Types",
+                    "Functions",
+                    "Objects",
+                    "Date & Time",
+                    "JSON"
+                ]
+            },
+            {
+                "react" : []
+            },
+            {
+                "tailwind" : [
+                    "Introduction to CSS Frameworks",
+                    "Tailwind SetUp",
+                    "Tailwind Properties"
+                ]
+            }
+        ],
+        "projects" : [
+            "Login Template",
+            "Registration Template",
+            "Landing Page",
+            "Responsive Website",
+            "Ecommerce Website"
+        ],
+        "test" : [
+            86,
+            70
+        ]
+
+    },{
+        "name" : "Divyansh Jain",
+        "age" : 20,
+        "userName" : "Divyansh",
+        "password" : "Divyansh1",
+        "courseName" : "Full Stack Web Development",
+        "courseDetail" : "fullStack",
+        "syllabusCompleted": [
+            {
+                "html" : [
+                    "HTML - Overview",
+                    "HTML - Basic Tags",
+                    "HTML - Elements",
+                    "HTML - Attributes",
+                    "HTML - Formatting",
+                    "HTML - Images, Video, Audio"
+                ]
+            },
+            {
+                "css" : [
+                    "CSS - Overview",
+                    "CSS - Syntax",
+                    "CSS - Inclusion",
+                    "CSS - Box Model",
+                    "CSS - Color, Background, Text",
+                    "CSS - Transform, Animation",
+                    "CSS - Filters, Images",
+                    "CSS - Display",
+                    "CSS - Positions",
+                    "CSS - Pseudo Elements"
+        
+                ]
+            },
+            {
+                "javascript" : [
+                    "Introduction",
+                    "Variables",
+                    "Interactions",
+                    "Operators",
+                    "Data-Types",
+                    "Functions",
+                    "Objects",
+                    "Date & Time",
+                    "JSON"
+                ]
+            },
+            {
+                "react" : []
+            },
+            {
+                "tailwind" : [
+                    "Introduction to CSS Frameworks",
+                    "Tailwind SetUp",
+                    "Tailwind Properties"
+                ]
+            }
+        ],
+        "projects" : [
+            "Login Template",
+            "Registration Template",
+            "Landing Page",
+            "Responsive Website",
+            "Ecommerce Website"
+        ],
+        "test" : [
+            86,
+            70
+        ]
+
+    },
+    {
+        "name" : "Anshul Baghel",
+        "age" : 21,
+        "userName" : "AnshulPupil",
+        "password" : "Intelligent@123",
+        "courseName" : "Full Stack Web Development",
+        "courseDetail" : "fullStack"
+    }
+
+]

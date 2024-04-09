@@ -1,0 +1,68 @@
+[
+    {
+        "html" : [
+            "HTML - Overview",
+            "HTML - Basic Tags",
+            "HTML - Elements",
+            "HTML - Attributes",
+            "HTML - Formatting",
+            "HTML - MetaTags",
+            "HTML - Images, Video, Audio"
+        ]
+    },
+    {
+        "css" : [
+            "CSS - Overview",
+            "CSS - Syntax",
+            "CSS - Inclusion",
+            "CSS - Box Model",
+            "CSS - Color, Background, Text",
+            "CSS - Transform, Animation",
+            "CSS - Filters, Images",
+            "CSS - Display",
+            "CSS - Positions",
+            "CSS - Pseudo CLasses",
+            "CSS - Pseudo Elements"
+
+        ]
+    },
+    {
+        "javascript" : [
+            "Introduction",
+            "Variables",
+            "Interactions",
+            "Operators",
+            "Data-Types",
+            "Functions",
+            "Objects",
+            "Date & Time",
+            "JSON",
+            "Error Handling",
+            "Promises",
+            "DOM",
+            "Query Selector",
+            "Event UI",
+            "Event Listener"
+
+        ]
+    },
+    {
+        "react" : [
+            "Introduction to React",
+            "Setting ReactJS Environment",
+            "Virtual DOM & Components",
+            "React In-line Styling",
+            "Rounting & Navigation",
+            "Redux & Flux",
+            "Hooks",
+            "Introduction to 3rd Party Module"
+        ]
+    },
+    {
+        "tailwind" : [
+            "Introduction to CSS Frameworks",
+            "Tailwind SetUp",
+            "Tailwind Properties"
+        ]
+    }
+]
