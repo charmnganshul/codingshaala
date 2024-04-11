@@ -1,4 +1,7 @@
 import React from 'react'
+import node from '../images/node.png'
+import fullstack from '../images/fullstackdev.png'
+import react from '../images/react-js.png'
 
 function CourseDetail() {
   return (
@@ -9,7 +12,7 @@ function CourseDetail() {
                 <label className='text-[50px] font-extrabold text-green-100'>01</label>
                 <div className='flex bg-green-200'>
                     <div className='bg-white p-4 drop-shadow-lg items-center flex w-[250px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[200px]' src='https://codersid.com/wp-content/uploads/2022/09/java-scriptprice.svg'></img>
+                        <img className='w-[200px]' src={node}></img>
                     </div>
                     <div className='flex flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Node Js</label>
@@ -32,7 +35,7 @@ function CourseDetail() {
                 <label className='text-[50px] font-extrabold text-pink-100'>02</label>
                 <div className='flex bg-pink-200'>
                     <div className='bg-white p-4 drop-shadow-lg items-center flex w-[250px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[200px]' src='https://codersid.com/wp-content/uploads/2022/10/fulls.svg'></img>
+                        <img className='w-[200px]' src= {fullstack}></img>
                     </div>
                     <div className='flex flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Full Stack</label>
@@ -55,7 +58,7 @@ function CourseDetail() {
                 <label className='text-[50px] font-extrabold text-blue-100'>03</label>
                 <div className='flex bg-blue-200'>
                     <div className='bg-white p-4 drop-shadow-lg items-center flex w-[250px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[200px]' src='https://codersid.com/wp-content/uploads/2022/09/react-js-icon.svg'></img>
+                        <img className='w-[200px]' src={react}></img>
                     </div>
                     <div className='flex flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>React Js</label>
