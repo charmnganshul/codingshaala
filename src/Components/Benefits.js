@@ -3,7 +3,7 @@ import React from 'react'
 function Benefits() {
   return (
     <div className='flex flex-col items-center gap-10 my-20'>
-        <label className='lg:text-[40px] text-[30px]'>Benefits With Coding Shaala</label>
+        <label className='lg:text-[40px] text-[30px]  underline font-bold'>BENEFITS With Coding Shaala</label>
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-20 w-full'>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>

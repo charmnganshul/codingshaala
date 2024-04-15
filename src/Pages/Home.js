@@ -1,33 +1,34 @@
-import React, {useRef, useState} from "react";
+import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Header from "../Components/Header";
 import CourseDetail from "../Components/CourseDetail";
 import Benefits from "../Components/Benefits";
 import Footer from "../Components/Footer";
-import { useNavigate } from "react-router-dom";
 import Roar from "../images/Sheryians_Logo_wFKd9VClG.png";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
+import Gallery from "../Components/Gallery";
 
 function Home() {
-  const [name,setName] = useState("")
-  const [email,setEmail] = useState("")
-  const [number,setNumber] = useState("")
-  const [course,setCourse] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [course, setCourse] = useState("");
   const navigate = useNavigate();
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_8s4a9ch', 'template_u917kmn', form.current, {
-        publicKey: '258gqxqON23pW4uJ3',
+      .sendForm("service_8s4a9ch", "template_u917kmn", form.current, {
+        publicKey: "258gqxqON23pW4uJ3",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
   };
   return (
@@ -57,24 +58,28 @@ function Home() {
             </label>
           </div>
           {/* <form > */}
-          <form ref={form} onSubmit={sendEmail} className="border rounded-[20px] box border-blue-500 drop-shadow-lg flex flex-col px-10 py-10 gap-5 lg:w-[55%]">
-            <label className="text-center text-[20px] font-bold ">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="border rounded-[20px] box border-blue-500 drop-shadow-lg flex flex-col px-10 py-10 gap-5 lg:w-[55%]"
+          >
+            <label className="text-center text-[24px] font-bold ">
               Request a call back!
             </label>
             <input
-            onChange={(e)=>setName(e.target.value)}
+              onChange={(e) => setName(e.target.value)}
               className="bg-transparent border-b pb-2 p-2"
               placeholder="Name*"
               name="name"
             ></input>
             <input
-            onChange={(e)=>setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
               className="bg-transparent border-b pb-2 p-2"
               placeholder="Email*"
               name="email"
             ></input>
             <input
-            onChange={(e)=>setNumber(e.target.value)}
+              onChange={(e) => setNumber(e.target.value)}
               className="bg-transparent border-b pb-2 p-2"
               placeholder="Phone No*"
               name="number"
@@ -83,7 +88,7 @@ function Home() {
             <div className="flex flex-wrap gap-4 text-[20px] mt-[-15px] font-semibold">
               <div className="flex gap-1 items-center">
                 <input
-                onClick={()=>setCourse("React Js")}
+                  onClick={() => setCourse("React Js")}
                   style={{ width: 16, height: 16 }}
                   className=""
                   type="checkbox"
@@ -94,7 +99,7 @@ function Home() {
               </div>
               <div className="flex gap-1 items-center">
                 <input
-                onClick={()=>setCourse("Node Js")}
+                  onClick={() => setCourse("Node Js")}
                   style={{ width: 16, height: 16 }}
                   type="checkbox"
                   name="course"
@@ -104,7 +109,7 @@ function Home() {
               </div>
               <div className="flex gap-1 items-center">
                 <input
-                onClick={()=>setCourse("Full Stack")}
+                  onClick={() => setCourse("Full Stack")}
                   style={{ width: 16, height: 16 }}
                   type="checkbox"
                   name="course"
@@ -114,7 +119,7 @@ function Home() {
               </div>
               <div className="flex gap-1 items-center">
                 <input
-                onClick={()=>setCourse("Python")}
+                  onClick={() => setCourse("Python")}
                   style={{ width: 16, height: 16 }}
                   type="checkbox"
                   name="course"
@@ -124,18 +129,21 @@ function Home() {
               </div>
             </div>
             <div className="flex items-center w-full justify-center">
-              <button onClick={(e)=>sendEmail(e)} className="bg-[#00E1FF] text-white w-[50%] py-1 text-[20px] rounded-xl font-bold">
+              <button
+                onClick={(e) => sendEmail(e)}
+                className="bg-[#00E1FF] text-white w-[50%] py-1 text-[20px] rounded-xl font-bold"
+              >
                 Register
               </button>
             </div>
-          {/* </form> */}
+            {/* </form> */}
           </form>
         </div>
       </div>
       <div className="lg:px-20 px-4">
         <CourseDetail></CourseDetail>
         <div className="flex flex-col lg:gap-10 gap-5 items-center">
-          <label className="text-[40px]">Who is this for?</label>
+          <h1 className="text-[40px] underline font-bold">WHO is this for?</h1>
           <div className="w-full border rounded-[20px] flex lg:flex-row flex-col gap-10 lg:p-10 p-4">
             <div className="lg:w-[50%]">
               <label>
@@ -173,8 +181,8 @@ function Home() {
         </div>
         <Benefits></Benefits>
         <div className="flex flex-col gap-10 items-center my-10">
-          <label className="lg:text-[40px] text-[30px] mt-10">
-            How Are We Different
+          <label className="lg:text-[40px] text-[30px] mt-10 underline font-bold">
+            HOW Are We Different
           </label>
           <div className="w-full border rounded-[20px] lg:justify-between lg:items-center flex lg:flex-row flex-col gap-10 lg:p-10 p-4">
             <div>
@@ -211,12 +219,12 @@ function Home() {
                   Components
                 </label>
                 <label className="text-[20px]">
-                  <i class="fa fa-share mr-2" aria-hidden="true"></i>Problem
-                  solving
+                  <i class="fa fa-share mr-2" aria-hidden="true"></i>Strategic
+                  Thinking
                 </label>
                 <label className="text-[20px]">
-                  <i class="fa fa-share mr-2" aria-hidden="true"></i>Strategy
-                  Thinking
+                  <i class="fa fa-share mr-2" aria-hidden="true"></i>Personal
+                  Attention
                 </label>
                 <label className="text-[20px]">
                   <i class="fa fa-share mr-2" aria-hidden="true"></i>Soft skill
@@ -227,6 +235,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Gallery></Gallery>
       <Footer></Footer>
     </div>
   );

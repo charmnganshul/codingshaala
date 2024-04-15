@@ -10,6 +10,8 @@ import Subjects from './Pages/Subjects'
 import Javascript from './Pages/Javascript'
 import HTML from './Pages/HTML'
 import CSS from './Pages/CSS'
+import Gallery from './Components/Gallery'
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path='/javascript' element={<Javascript/>}></Route>
         <Route path='/html' element={<HTML/>}></Route>
         <Route path='/notes/css' element={<CSS/>}></Route>
+        <Route path='/gallery' element={<Gallery/>}></Route>
       </Routes>
     </HashRouter>
   )

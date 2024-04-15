@@ -6,11 +6,11 @@ import react from '../images/react-js.png'
 function CourseDetail() {
   return (
     <div className='flex flex-col items-center gap-10 my-20'>
-        <label className='text-[40px]'>Course Details</label>
+        <label className='text-[40px] underline font-bold'>COURSE Details</label>
         <div className='flex flex-wrap justify-between'>
             <div className='lg:w-[30%] w-[90%] lg:ml-0 ml-[10%] flex flex-col'>
                 <label className='text-[50px] font-extrabold text-green-100'>01</label>
-                <div className='flex bg-green-200'>
+                <div className='flex bg-green-200 rounded-tl-lg rounded-tr-lg'>
                     <div className='bg-white p-4 drop-shadow-lg items-center flex w-[250px] rounded-[20px] relative top-[50px] left-[-40px]'>
                         <img className='w-[200px]' src={node}></img>
                     </div>
@@ -33,7 +33,7 @@ function CourseDetail() {
             </div>
             <div className='lg:w-[30%] w-[90%] lg:ml-0 ml-[10%] flex flex-col'>
                 <label className='text-[50px] font-extrabold text-pink-100'>02</label>
-                <div className='flex bg-pink-200'>
+                <div className='flex bg-pink-200 rounded-tl-lg rounded-tr-lg '>
                     <div className='bg-white p-4 drop-shadow-lg items-center flex w-[250px] rounded-[20px] relative top-[50px] left-[-40px]'>
                         <img className='w-[200px]' src= {fullstack}></img>
                     </div>
@@ -56,7 +56,7 @@ function CourseDetail() {
             </div>
             <div className='lg:w-[30%] w-[90%] lg:ml-0 ml-[10%] flex flex-col'>
                 <label className='text-[50px] font-extrabold text-blue-100'>03</label>
-                <div className='flex bg-blue-200'>
+                <div className='flex bg-blue-200 rounded-tl-lg rounded-tr-lg'>
                     <div className='bg-white p-4 drop-shadow-lg items-center flex w-[250px] rounded-[20px] relative top-[50px] left-[-40px]'>
                         <img className='w-[200px]' src={react}></img>
                     </div>

@@ -7,8 +7,8 @@ function Header() {
   const [sidebar, setSidebar] = useState(false)
   return (
     <div className='w-full bg-white h-[10vh] flex box-content'>
-      <div className='w-full bg-white border-b drop-shadow-sm py-4 px-4 h-[10vh] top-0 flex justify-between items-center fixed z-10'>
-        <img onClick={()=>navigate('/')} className='lg:h-[10vh] h-[8vh] cursor-pointer' src={Logo}></img>
+      <div className='w-full bg-blue-100 border-b drop-shadow-sm py-4 px-10 h-[10vh] top-0 flex justify-between items-center fixed z-10'>
+        <img onClick={()=>navigate('/')} className='lg:h-[10vh] h-[8vh] cursor-pointer' src={Logo} alt=''></img>
         <div className='lg:flex hidden gap-10 text-[20px]'>
             <label className='cursor-pointer hover-3 font-bold' onClick={()=>navigate('/')}>Home</label>
             <label className='cursor-pointer hover-3 font-bold'>Contact Us</label>
