@@ -7,6 +7,9 @@ import Footer from "../Components/Footer";
 import Roar from "../images/Sheryians_Logo_wFKd9VClG.png";
 import emailjs from "@emailjs/browser";
 import Gallery from "../Components/Gallery";
+import SliderText from "../Components/Slider_Text";
+import Imgleft from "../images/Gallery/testing.webp";
+
 
 function Home() {
   const [name, setName] = useState("");
@@ -174,12 +177,13 @@ function Home() {
                 to! Oh, by the way, the stuff we build is really fun!
               </label>
             </div>
-            <div>
-              <img src="https://codersid.com/wp-content/uploads/2022/09/sectionimg.svg"></img>
+            <div >
+              <img className="rounded-xl" src={Imgleft}></img>
             </div>
           </div>
         </div>
         <Benefits></Benefits>
+        <SliderText></SliderText>
         <div className="flex flex-col gap-10 items-center my-10">
           <label className="lg:text-[40px] text-[30px] mt-10 underline font-bold">
             HOW Are We Different

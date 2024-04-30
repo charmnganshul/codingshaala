@@ -1,4 +1,6 @@
 import React from 'react'
+import Planning from "../images/Gallery/planning.webp";
+
 
 function Benefits() {
   return (
@@ -7,7 +9,7 @@ function Benefits() {
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-20 w-full'>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[80px]' src='https://codersid.com/wp-content/uploads/2022/09/icon1.png'></img>
+                        <img className='w-[80px]' src={Planning}></img>
                     </div>
                     <div className='flex gap-4 flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Live Project</label>
@@ -17,7 +19,7 @@ function Benefits() {
                 </div>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[80px]' src='https://codersid.com/wp-content/uploads/2022/09/icon2.png'></img>
+                        <img className='w-[80px]'  src={Planning}></img>
                     </div>
                     <div className='flex gap-4 flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>90 Days Training</label>
@@ -27,7 +29,7 @@ function Benefits() {
                 </div>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[80px]' src='https://codersid.com/wp-content/uploads/2022/09/icon3.png'></img>
+                        <img className='w-[80px]' src={Planning}></img>
                     </div>
                     <div className='flex gap-4 flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Personal attention</label>
@@ -37,7 +39,7 @@ function Benefits() {
                 </div>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[80px]' src='https://codersid.com/wp-content/uploads/2022/09/icon4.png'></img>
+                        <img className='w-[80px]' src={Planning}></img>
                     </div>
                     <div className='flex gap-4 flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Soft skill Training</label>
@@ -47,7 +49,7 @@ function Benefits() {
                 </div>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[80px]' src='https://codersid.com/wp-content/uploads/2022/09/icon5.png'></img>
+                        <img className='w-[80px]'  src={Planning}></img>
                     </div>
                     <div className='flex gap-4 flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Get Certified</label>
@@ -57,7 +59,7 @@ function Benefits() {
                 </div>
                 <div className='flex w-[90%] py-4 border min-h-[20vh] lg:ml-0 ml-[10%]'>
                     <div className='bg-white justify-center drop-shadow-lg items-center flex w-[150px] h-[125px] rounded-[20px] relative top-[50px] left-[-40px]'>
-                        <img className='w-[80px]' src='https://codersid.com/wp-content/uploads/2022/09/icon6.png'></img>
+                        <img className='w-[80px]' src={Planning}></img>
                     </div>
                     <div className='flex gap-4 flex-col py-4 px-4 ml-[-20px]'>
                         <label className='text-[20px] font-bold'>Get Placed</label>
