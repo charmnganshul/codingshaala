@@ -11,6 +11,7 @@ import Javascript from './Pages/Javascript'
 import HTML from './Pages/HTML'
 import CSS from './Pages/CSS'
 import Gallery from './Components/Gallery'
+import Navigation from './Components/Navigation'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/html' element={<HTML/>}></Route>
         <Route path='/notes/css' element={<CSS/>}></Route>
         <Route path='/gallery' element={<Gallery/>}></Route>
+        <Route path='/navigation' element={<Navigation/>}></Route>
       </Routes>
     </HashRouter>
   )

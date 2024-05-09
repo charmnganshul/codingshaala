@@ -9,7 +9,7 @@ import emailjs from "@emailjs/browser";
 import Gallery from "../Components/Gallery";
 import SliderText from "../Components/Slider_Text";
 import Imgleft from "../images/Gallery/testing.webp";
-
+import Workshop from "../images/Gallery/workshop.webp";
 
 function Home() {
   const [name, setName] = useState("");
@@ -177,7 +177,7 @@ function Home() {
                 to! Oh, by the way, the stuff we build is really fun!
               </label>
             </div>
-            <div >
+            <div>
               <img className="rounded-xl" src={Imgleft}></img>
             </div>
           </div>
@@ -190,7 +190,7 @@ function Home() {
           </label>
           <div className="w-full border rounded-[20px] lg:justify-between lg:items-center flex lg:flex-row flex-col gap-10 lg:p-10 p-4">
             <div>
-              <img src="https://codersid.com/wp-content/uploads/2022/09/module.svg"></img>
+              <img src={Workshop}></img>
             </div>
             <div className="lg:w-[50%] flex flex-col gap-4">
               <label className="text-[30px] font-semibold">We Tutor On</label>
